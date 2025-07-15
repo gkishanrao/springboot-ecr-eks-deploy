@@ -61,7 +61,7 @@ eksctl create cluster \
 # Update your local kubeconfig:
 
 ```
-aws eks --region us-east-1 update-kubeconfig --name springboot
+aws eks --region us-east-1 update-kubeconfig --name <clust-name>
 
 ```
 🛠️ Deploy to Kubernetes
