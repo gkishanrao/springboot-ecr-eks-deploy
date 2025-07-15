@@ -36,7 +36,10 @@ View push commands<img width="1821" height="582" alt="image" src="https://github
 
           docker push 516611517801.dkr.ecr.us-east-1.amazonaws.com/springboot-eks:latest
 
-![Uploading image.png…]()
+
+
+<img width="1821" height="623" alt="image" src="https://github.com/user-attachments/assets/22bf970a-59bb-4d16-9ad0-6afc97612492" />
+
 
 ```
 516611517801.dkr.ecr.us-east-1.amazonaws.com/springboot-eks:latest
