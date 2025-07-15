@@ -16,7 +16,6 @@
 
 ## 📦 ECR Image
 Create ECR Private registry then select repository
-View push commands<img width="1821" height="582" alt="image" src="https://github.com/user-attachments/assets/02a6e127-037d-4fc9-b93a-a08b13e2a6ba" />
 
  1 Retrieve an authentication token and authenticate your Docker client to your registry. Use the AWS CLI:
 
