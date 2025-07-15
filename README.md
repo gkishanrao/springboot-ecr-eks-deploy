@@ -4,6 +4,11 @@
 
 <img width="1215" height="632" alt="image" src="https://github.com/user-attachments/assets/0fd3d2e6-ed83-4c67-8538-fcfdb9ccbc93" />
 
+1. AWS Account
+2. AWS ClI
+3. Docker
+4. 
+
 ## 📦 ECR Image
 
 ```
