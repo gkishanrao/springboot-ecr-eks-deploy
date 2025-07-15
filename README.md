@@ -16,7 +16,7 @@
 
 ## 📦 ECR Image
 Create ECR Private registry then select repository
-View push commands![Uploading image.png…]()
+View push commands<img width="1821" height="582" alt="image" src="https://github.com/user-attachments/assets/02a6e127-037d-4fc9-b93a-a08b13e2a6ba" />
 
  1 Retrieve an authentication token and authenticate your Docker client to your registry. Use the AWS CLI:
 
@@ -36,9 +36,11 @@ View push commands![Uploading image.png…]()
 
           docker push 516611517801.dkr.ecr.us-east-1.amazonaws.com/springboot-eks:latest
 
+![Uploading image.png…]()
 
 ```
-516611517801.dkr.ecr.us-east-1.amazonaws.com/spring-boot:latest
+516611517801.dkr.ecr.us-east-1.amazonaws.com/springboot-eks:latest
+
 
 ```
 ## 🚀 EKS Cluster Setup
