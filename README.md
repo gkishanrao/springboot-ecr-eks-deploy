@@ -66,8 +66,49 @@ aws eks --region us-east-1 update-kubeconfig --name <clust-name>
 ```
 🛠️ Deploy to Kubernetes
 
+application.yml
+                      
+                      apiVersion: apps/v1
+                      kind: Deployment
+                      metadata:
+                        name: myapp
+                      spec:
+                        replicas: 3
+                        selector:
+                          matchLabels:
+                            app: myapp
+                        template:
+                          metadata:
+                            labels:
+                              app: myapp
+                          spec:
+                            containers:
+                              - name: myapp
+                                image: <Image-Name>
+                                ports:
+                                  - containerPort: 8080
+                      
+                      ---
+                      apiVersion: v1
+                      kind: Service
+                      metadata:
+                        name: myapp-service
+                      spec:
+                        selector:
+                          app: myapp
+                        ports:
+                          - protocol: TCP
+                            port: 80
+                            targetPort: 8080
+                        type: LoadBalancer
+
+
+
 ```
 kubectl apply -f application.yml
+
+
+
 ```
 ```
 kubectl get pods
