@@ -1,5 +1,9 @@
 # springboot-ecr-eks-deploy
 # This project demonstrates deploying a Spring Boot application to AWS Elastic Kubernetes Service (EKS) using a container image hosted on Amazon Elastic Container Registry (ECR).
+
+
+<img width="1215" height="632" alt="image" src="https://github.com/user-attachments/assets/0fd3d2e6-ed83-4c67-8538-fcfdb9ccbc93" />
+
 ## 📦 ECR Image
 
 ```
