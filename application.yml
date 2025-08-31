@@ -1,3 +1,4 @@
+#Deployment
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -14,10 +15,10 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: 516611517801.dkr.ecr.us-east-1.amazonaws.com/spring-boot:latest
+          image: <Image-Name>
           ports:
             - containerPort: 8080
-
+#service
 ---
 apiVersion: v1
 kind: Service
@@ -31,3 +32,5 @@ spec:
       port: 80
       targetPort: 8080
   type: LoadBalancer
+
+
